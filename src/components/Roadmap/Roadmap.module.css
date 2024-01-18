@@ -41,6 +41,14 @@
   display: block;
   width: 100%;
 }
+.cashier {
+  max-width: 605px;
+  display: block;
+}
+.reverse {
+  max-width: 554px;
+  display: block;
+}
 .imageContainer2 {
   display: flex;
   justify-content: space-between;
