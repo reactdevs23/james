@@ -33,11 +33,13 @@
 .rocket {
   display: block;
   max-width: 500px;
+  width: 100%;
 }
 .flower {
   max-width: 750px;
 
   display: block;
+  width: 100%;
 }
 .imageContainer2 {
   display: flex;

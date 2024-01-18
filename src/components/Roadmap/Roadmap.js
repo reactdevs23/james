@@ -33,12 +33,12 @@ const Roadmap = () => {
         <img src={cashier} alt="#" className={styles.rocket} />
         <img src={reverse} alt="#" className={styles.flower} />
       </div>{" "}
-      <div className={[styles.imageContainer3, "container"].join(" ")}>
+      {/* <div className={[styles.imageContainer3, "container"].join(" ")}>
         <img src={forgive} alt="#" className={styles.forgive} />
         <img src={forgiveWith} alt="#" className={styles.forgiveWith} />
-      </div>
-      <div className={"container"}>
-        <img src={lazy} alt="" />
+      </div> */}
+      <div className="container">
+        <img src={lazy} alt="#" />
 
         <div className={styles.container}>
           <div className={styles.pistolContainer}>
