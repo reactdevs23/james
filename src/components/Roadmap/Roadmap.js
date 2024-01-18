@@ -17,7 +17,7 @@ import {
 const Roadmap = () => {
   return (
     <div className={styles.wrapper}>
-      <div className={["container"].join(" ")}>
+      {/* <div className={["container"].join(" ")}>
         <img src={roadmap} alt="#" className={styles.title} />
         <p className={styles.info}>Let’s just pomp that shit.</p>
 
@@ -27,7 +27,7 @@ const Roadmap = () => {
           <img src={flower} alt="#" className={styles.flower} />
         </div>
         <img src={dreaming} alt="#" className={styles.title} />
-      </div>
+      </div> */}
       {/* <div className={styles.imageContainer2}>
         {" "}
         <img src={cashier} alt="#" className={styles.cashier} />
