@@ -1,0 +1,137 @@
+.wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+
+  align-items: center;
+  padding: 30px 0;
+}
+
+.snake,
+.mobileContainer {
+  display: none;
+}
+.info {
+  color: #19381f;
+  font-family: "Nothing You Could Do";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 84px */
+
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  top: 10%;
+  width: 45%;
+}
+.subInfo {
+  color: #19381f;
+  font-family: "Nothing You Could Do";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: none;
+}
+@media only screen and (max-width: 1199px) {
+  .container {
+    /* grid-template-columns: 1fr 1fr; */
+    padding-bottom: 15px;
+  }
+  .info {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .wrapper {
+    padding-bottom: 13px;
+  }
+
+  .info,
+  .subInfo {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    background: none;
+  }
+  .container {
+    align-items: start;
+    padding: 0;
+  }
+
+  .textContainer {
+    order: -1;
+  }
+  .subInfo {
+    display: none;
+  }
+
+  .info {
+    font-size: 29px;
+  }
+  .subInfo {
+    font-size: 29px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .container {
+    gap: 0;
+  }
+  .hangingAndSnake {
+    display: none;
+  }
+  .infoContainer {
+    display: flex;
+    align-items: flex-start;
+  }
+  .info {
+    position: static;
+    width: 60%;
+    padding-left: 5%;
+  }
+  .mobileContainer {
+    display: block;
+    position: relative;
+  }
+  .subInfo {
+    display: block;
+    position: absolute;
+    top: 4%;
+    width: 70%;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+  }
+  .snake {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    padding-top: 5%;
+  }
+
+  .hanging {
+    display: block;
+  }
+  .bar {
+    display: block;
+    margin-top: -5%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    position: relative;
+    width: 100vw;
+  }
+}

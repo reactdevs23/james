@@ -1,0 +1,59 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-top: 10px;
+}
+.noTax,
+.ca {
+  margin-right: auto;
+  max-width: 1000px;
+  width: 80%;
+  display: block;
+}
+
+.lpBurn,
+.james {
+  margin-left: auto;
+  max-width: 1000px;
+  width: 80%;
+  display: block;
+}
+.cigerate {
+  max-width: 840px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.footerContainer {
+  position: relative;
+  overflow: hidden;
+
+  margin: 0 auto;
+}
+.footerContainer::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background: #fff;
+  border-radius: 50% 50% 0 0;
+  width: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.footerImage {
+  display: block;
+}
+.bar {
+  position: absolute;
+  object-fit: cover;
+  object-position: top;
+  bottom: 0;
+  transform: translateY(60%);
+}
+@media only screen and (max-width: 520px) {
+  .cigerate {
+    max-width: 213px;
+    margin-left: 10%;
+  }
+}

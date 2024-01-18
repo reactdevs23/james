@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.title {
+  max-width: 1119px;
+  display: block;
+  margin: 0 auto;
+}
+.info,
+.text {
+  color: #19381f;
+  font-family: "Nothing You Could Do";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 84px */
+  text-align: right;
+}
+.text {
+  text-align: left;
+  max-width: 763px;
+}
+.mobileText {
+  display: none;
+}
+.imageContainer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.rocket {
+  display: block;
+  max-width: 500px;
+}
+.flower {
+  max-width: 750px;
+
+  display: block;
+}
+.imageContainer2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+}
+.imageContainer3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pistol {
+  max-width: 500px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+  .info,
+  .text {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .info,
+  .text {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .info,
+  .text {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .container {
+    flex-direction: column;
+  }
+  .pistolContainer {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 25px;
+  }
+  .mobileText {
+    display: block;
+  }
+  .dekstopText {
+    display: none;
+  }
+}

@@ -1,0 +1,87 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.logo {
+  max-width: 200px;
+}
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.ape,
+.tg {
+  max-width: 154px;
+}
+.barContainer {
+  position: relative;
+  height: 60px;
+
+  margin-top: -48px;
+}
+.barContainer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background: #eee82c;
+  z-index: -1;
+  height: 50%;
+  bottom: 0px;
+}
+.bar {
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+@media only screen and (max-width: 991px) {
+  .ape,
+  .tg {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    background: url(../../images/heroBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .ape,
+  .tg {
+    width: 86px;
+  }
+  .barContainer {
+    display: none;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .logo {
+    max-width: 160px;
+  }
+  .buttonContainer {
+    gap: 8px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .header {
+    width: 95%;
+  }
+  .logo {
+    max-width: 130px;
+  }
+  .ape,
+  .tg {
+    width: 75px;
+  }
+  .buttonContainer {
+    gap: 5px;
+  }
+}

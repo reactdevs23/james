@@ -1,0 +1,147 @@
+.mainWrapper {
+  background: url(../../images/curveLine.png);
+}
+
+.wrapper {
+  padding-bottom: 110px;
+}
+.title {
+  max-width: 1119px;
+  display: block;
+
+  width: 90%;
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  align-items: start;
+  gap: 20px;
+}
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.one {
+  width: 90%;
+  max-width: 628px;
+  display: block;
+}
+.two {
+  display: block;
+  margin-top: -20%;
+  margin-left: auto;
+  padding-right: 3%;
+  width: 75%;
+  max-width: 461px;
+}
+.three {
+  max-width: 536px;
+  display: block;
+  margin-left: auto;
+  width: 75%;
+}
+.four {
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  max-width: 550px;
+}
+.five {
+  width: 100%;
+  max-width: 680px;
+  display: block;
+}
+.six {
+  width: 90%;
+  max-width: 551px;
+  display: block;
+}
+.seven {
+  width: 80%;
+  max-width: 525px;
+  display: block;
+}
+.eight {
+  width: 85%;
+
+  max-width: 554px;
+  display: block;
+}
+.nine {
+  width: 100%;
+
+  max-width: 704px;
+  display: block;
+}
+.ten {
+  width: 100%;
+  max-width: 854px;
+  display: block;
+  margin-top: 15px;
+}
+.tenMobile,
+.elevenMobile {
+  display: none;
+}
+.eleven {
+  width: 100%;
+  display: block;
+}
+.tweleve {
+  display: block;
+}
+.imageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 520px) {
+  .mainWrapper {
+    background: none;
+  }
+  .wrapper {
+    padding-bottom: 10px;
+  }
+  .imageContainer {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    gap: 8px;
+  }
+  .left,
+  .right {
+    gap: 8px;
+  }
+  .tenMobile,
+  .elevenMobile {
+    display: block;
+    margin-top: 15px;
+  }
+  .tenDekstop,
+  .elevenDekstop {
+    display: none;
+  }
+  .tweleve {
+    width: 70%;
+  }
+  .one {
+    width: 100%;
+  }
+  .two {
+    width: 90%;
+  }
+  .three {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .five {
+    width: 100%;
+  }
+  .six {
+    width: 100%;
+  }
+}

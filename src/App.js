@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import CareFul from "./components/CareFul/Careful";
+import Header from "./components/Header/Header";
+import HeroSection from "./components/HeroSection/HeroSection";
+import JamesKnownFrom from "./components/JamesKnownFrom/JamesKnownFrom";
+import LookingFor from "./components/LookingFor/LookingFor";
+import NoTax from "./components/NoTax/NoTax";
+import Roadmap from "./components/Roadmap/Roadmap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <HeroSection />
+      <LookingFor />
+      <CareFul />
+      <Roadmap />
+
+      <JamesKnownFrom />
+    </>
   );
 }
 
