@@ -71,7 +71,8 @@
 }
 .pistol {
   max-width: 500px;
-  width: auto;
+  width: 100%;
+  display: block;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -97,13 +98,14 @@
     flex-direction: column;
   }
   .pistolContainer {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 170px;
 
     padding-bottom: 25px;
   }
   .mobileText {
     display: block;
+    max-width: 170px;
   }
   .dekstopText {
     display: none;
