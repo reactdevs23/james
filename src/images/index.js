@@ -1,7 +1,7 @@
+import loader from "./loader.gif";
 import logo from "./logo.png";
 import ape from "./ape.png";
 import tg from "./tg.png";
-
 import meetJames from "./meet james.png";
 import heroJames from "./heroJames.gif";
 import kiwi from "./kiwi.png";
@@ -11,15 +11,15 @@ import snake from "./snake.png";
 import hangingAndSanke from "./hangingAndSnake.png";
 import bar from "./bar.png";
 import roadmap from "./roadmap.png";
-import rocket from "./rocket.png";
+import rocket from "./rocket.gif";
 import flower from "./flower.png";
 import dreaming from "./dreaming.png";
-import cashier from "./cashier.png";
+import cashier from "./cashier.gif";
 import reverse from "./reverse.png";
 import forgive from "./forgive.png";
 import forgiveWith from "./forgivewith.png";
 import lazy from "./lazy.png";
-import pistol from "./pistol.png";
+import pistol from "./pistol.gif";
 import jamesKnownFrom from "./jamesKnownFrom.png";
 import one from "./1.png";
 import two from "./2.png";
@@ -43,6 +43,7 @@ import curveLine from "./curveLine.png";
 import footer from "./footer.png";
 
 export {
+  loader,
   logo,
   ape,
   tg,
