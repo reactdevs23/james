@@ -10,6 +10,7 @@ import {
   noTax,
   snake2,
 } from "../../images";
+import CopyToClipboard from "react-copy-to-clipboard";
 
 const NoTax = () => {
   return (
@@ -20,7 +21,9 @@ const NoTax = () => {
         <div className={[styles.titleContainer].join(" ")}>
           <img src={noTax} alt="#" className={styles.noTax} />{" "}
           <img src={lpBurn} alt="#" className={styles.lpBurn} />
-          <img src={ca} alt="#" className={styles.ca} />{" "}
+          <CopyToClipboard text="2s37iUf6g98as4o6283BJ1RUvLKr5ocHr5hpHXiYoHAk">
+            <img src={ca} alt="#" className={styles.ca} />{" "}
+          </CopyToClipboard>
           <img src={james} alt="#" className={styles.james} />
         </div>
 

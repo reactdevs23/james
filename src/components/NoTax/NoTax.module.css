@@ -11,7 +11,9 @@
   width: 80%;
   display: block;
 }
-
+.ca {
+  cursor: pointer;
+}
 .lpBurn,
 .james {
   margin-left: auto;
