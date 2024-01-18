@@ -28,11 +28,11 @@ const Roadmap = () => {
         </div>
         <img src={dreaming} alt="#" className={styles.title} />
       </div>
-      <div className={styles.imageContainer2}>
+      {/* <div className={styles.imageContainer2}>
         {" "}
         <img src={cashier} alt="#" className={styles.cashier} />
         <img src={reverse} alt="#" className={styles.reverse} />
-      </div>{" "}
+      </div>{" "} */}
       <div className={[styles.imageContainer3, "container"].join(" ")}>
         <img src={forgive} alt="#" className={styles.forgive} />
         <img src={forgiveWith} alt="#" className={styles.forgiveWith} />
