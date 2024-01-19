@@ -16,11 +16,7 @@ const Header = () => {
           >
             <img src={ape} alt="#" className={styles.ape} />
           </a>
-          <a
-            href="https://web.telegram.org/k/#@JamesSloth"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://t.me/JamesSloth" target="_blank" rel="noreferrer">
             <img src={tg} alt="#" className={styles.tg} />
           </a>
         </div>
